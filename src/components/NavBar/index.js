@@ -62,6 +62,9 @@ class NavBar extends Component {
             <Link to="/popular" className={popularRoute}>
               <li>Popular</li>
             </Link>
+            <Link to="/toprated" className={popularRoute}>
+              <li>Top-Rated</li>
+            </Link>
           </ul>
           <div className="icons-container">
             <div className={searchContainer}>
