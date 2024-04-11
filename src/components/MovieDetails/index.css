@@ -2,6 +2,16 @@
   margin: 0;
   box-sizing: border-box;
 }
+.popular-items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  padding-left: 32px;
+  padding-right: 19px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 8px;
+}
 .movie-detail-page {
   background-size: cover;
   min-height: 60vh;
@@ -119,7 +129,7 @@
   font-weight: 600;
   font-size: 14px;
   line-height: 18px;
-  color: #64748b;
+  color: #2a2f35;
   margin-bottom: 7px;
 }
 .info-items {
@@ -128,7 +138,7 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 20px;
-  color: #ffffff;
+  color: #783d3d;
 }
 .list-item {
   list-style: none;

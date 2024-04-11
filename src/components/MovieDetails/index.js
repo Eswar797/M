@@ -197,7 +197,7 @@ class MovieDetails extends Component {
           </div>
           <div className="similar-movies-container">
             <h1 className="more-like-this-text">More like this</h1>
-            <div className="similar-movies-list">
+            <div className="popular-items">
               {similarMovies.map(eachMovie => (
                 <SimilarMovies eachMovie={eachMovie} key={eachMovie.id} />
               ))}

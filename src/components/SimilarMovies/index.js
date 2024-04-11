@@ -4,7 +4,8 @@ const SimilarMovies = props => {
   const {eachMovie} = props
   const {posterPath, title} = eachMovie
 
-  return <img className="similar-movies-img" alt={title} src={posterPath} />
+  return (
+  <div className='popular-items'><img className="similar-movies-img" alt={title} src={posterPath} /> </div>)
 }
 
 export default SimilarMovies

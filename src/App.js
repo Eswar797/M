@@ -8,7 +8,7 @@ import SearchPage from './components/SearchPage'
 import MovieDetails from './components/MovieDetails'
 import AccountPage from './components/AccountPage'
 import NotFoundPage from './components/NotFoundPage'
-
+import TopRated from './components/TopRated'
 import './App.css'
 
 const App = () => (
@@ -17,6 +17,7 @@ const App = () => (
       <Route path="/login" exact component={Login} />
       <ProtectedRoute path="/" exact component={Home} />
       <ProtectedRoute path="/popular" exact component={Popular} />
+      <ProtectedRoute path="/toprated" exact component={TopRated} />
       <ProtectedRoute path="/search" exact component={SearchPage} />
       <ProtectedRoute path="/account" exact component={AccountPage} />
       <ProtectedRoute path="/movies/:id" exact component={MovieDetails} />

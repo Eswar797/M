@@ -1,6 +1,6 @@
 import {Component} from 'react'
 import Cookies from 'js-cookie'
-import Slider from 'react-slick'
+
 import Loader from 'react-loader-spinner'
 
 import NavBar from '../NavBar'
@@ -160,11 +160,11 @@ class Home extends Component {
     return (
       <>
         <div className="movies-list-page">
-          <Slider className="slick" {...settings}>
+          <ul  className='popular-items'>
             {originalMoviesList.map(eachMovie => (
               <HomeMovieItems eachMovie={eachMovie} key={eachMovie.id} />
             ))}
-          </Slider>
+          </ul>
         </div>
       </>
     )
@@ -176,11 +176,11 @@ class Home extends Component {
     return (
       <>
         <div className="movies-list-page">
-          <Slider className="slick" {...settings}>
+          <ul className='popular-items'>
             {trendingMoviesList.map(eachMovie => (
               <HomeMovieItems eachMovie={eachMovie} key={eachMovie.id} />
             ))}
-          </Slider>
+          </ul>
         </div>
       </>
     )

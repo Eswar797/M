@@ -1,6 +1,6 @@
 .login-container {
   min-height: 100vh;
-  padding: 32px;
+  padding: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -14,15 +14,23 @@
   margin: auto;
   width: 100%;
 }
+.login{
+  font-size: 10px;
+  color:#c55151;
+}
+.login1{
+  font-size: 9px;
+  color:#c55151;
+}
 
 .login-heading {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
-  font-size: 32px;
+  font-size: 30px;
   line-height: 40px;
-  color: #ffffff;
-  margin-bottom: 24px;
+  color: #1a1818;
+  margin-bottom: 20px;
 }
 .login-form {
   display: flex;
@@ -34,7 +42,7 @@
   font-weight: 700;
   font-size: 12px;
   line-height: 16px;
-  color: #ffffff;
+  color: #292727;
   margin-bottom: 8px;
 }
 .login-input1 {
@@ -126,8 +134,34 @@
     padding: 64px 48px 64px 48px;
     margin: auto;
   }
-
+  .login{
+    font-size: 20px;
+    color:#c55151;
+  }
+  .login1{
+    font-size: 19px;
+    color:#c55151;
+  }
+  
   .err-msg {
     line-height: 18px;
+  }
+  .login-heading {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  .login-label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    color: #ffffff;
+    margin-bottom: 8px;
   }
 }

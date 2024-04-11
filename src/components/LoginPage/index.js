@@ -85,6 +85,9 @@ class Login extends Component {
             <button className="sign-in-btn" type="submit">
               Login
             </button>
+            <br/>
+            <h1 className='login1'>Username:rahul <br/> Password:rahul@2021 <br /></h1>
+            <h2 className='login1'>Note: It works specifically for this login details only</h2>
           </form>
         </div>
       </div>
