@@ -36,8 +36,6 @@ The app must have the following functionalities
         - A **random** movie title and movie poster with its details should be displayed from the **Originals Response**
         - Display the list of movies received from the Trending Now Movies Response
         - Display the list of movies received from the Originals Response
-      - If any of the HTTP GET request made is unsuccessful, then the failure view given in the **Figma** screens should be displayed respectively
-        - When the **Try Again** button is clicked, then the respective HTTP GET request should be made
 
     - When a **Movie** item is clicked, then the page should be navigated to the Movie Item Details Route
 
